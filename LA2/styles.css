@@ -1,0 +1,119 @@
+body
+{
+    background-color: #f1e1dc;;
+}
+
+header
+{
+    margin-left: 25%;    
+    margin-right: 25%;   
+    font-family:'Montserrat','sans-serif';
+    text-align: center;
+}
+
+h2
+{
+    color: #c5a989;
+    
+}
+
+h1,h3,h4,h5,h6,p,label,td
+{
+    color: #1f8b86;
+}
+
+hr{
+    width: 50%;
+}
+
+label
+{
+    font-family:'Montserrat','sans-serif';
+    font-weight: bold;
+    font-size: large;
+}
+
+.one
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f1ebdc;;
+}
+
+/* .two{
+    margin: 0;
+    padding: 0;
+    background-color: #BFA2DB;
+}
+
+.three{
+    margin: 0;
+    padding: 0;
+    background-color: #7F7C82;
+} */
+
+.Button
+{
+    font-family:'Montserrat','sans-serif';
+    font-weight: bold;
+    font-size: large;
+}
+
+.tableBorder td
+{
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif ;
+    padding: 2px;
+}
+
+.myImg
+{
+    float: left;
+    border-radius: 100%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.container_1, .container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8, .container_9, .container_10, .container_11{
+    margin-left: 25%;    
+    margin-right: 25%;   
+    vertical-align: middle;
+    font-family:'Montserrat', 'verdana' ;
+}
+
+.contactMe{
+    margin-left: 25%;    
+    margin-right: 25%;   
+    vertical-align: middle;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.HomeTown{
+    margin-left: 25%;    
+    margin-right: 25%;   
+    vertical-align: middle;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.homeImg1
+{
+    display: inline-block;
+    width: 18rem;
+    height: 16rem;
+}
+
+.homeImg2
+{
+    display: inline-block;
+    width: 16rem;
+    height: 16rem;
+}
+
+.homeImg3
+{
+    display: inline-block;
+    width: 18rem;
+    height: 16rem;
+}

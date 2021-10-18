@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Vishal Borse
+        T2 - 2019BTECS00066
+        PL3 Assignment 5B2
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Snippet</title>
+    <style>
+      
+    
+      h3,
+      h4,
+      section {
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+
+    
+        body{
+            /* background-color: #24252A; */
+           color:black;
+        }
+        /* a{
+            color:darkmagenta;
+        }
+        h1,h3{
+            color:darkmagenta;
+        } */
+        
+      /* code,pre {
+         margin-left: 2.7%; 
+      } */
+      p{
+          padding-left: 10%;
+          text-align: left;
+      }
+      footer{
+          text-align:center;
+      }
+      footer>p{
+        padding-left: 0%;
+          text-align:center;
+      }
+    </style>
+  </head>
+  <body style="border:cyan 2px solid">
+    <header style="text-align: center">
+      <h1 style="color:rgb(255, 136, 0);">WCE Coding Club</h1>
+    </header>
+    <hr />
+    
+    <section >
+        <br>
+        <h2>Write a code in any programming language that converts Centigrade to Fahrenheit.</h2>
+      <h1 style="text-align: left">C++ code for given problem statement:-</h1>
+      <code >
+        
+        <pre style="border:black 2px solid;background-color: black;color:white;" >
+            <h2 >
+              #include <stdio.h>
+                void main()
+                {       
+                    int i,n,sum=0;
+                  float avg;
+                  printf("Input the 10 numbers : \n");
+                  for (i=1;i<=10;i++)
+                  {
+                                printf("Number-%d :",i);
+                
+                    scanf("%d",&n);
+                    sum +=n;
+                  }
+                  avg=sum/10.0;
+                  printf("The sum of 10 no is : %d\nThe Average is : %f\n",sum,avg);
+                 
+                }
+
+        </h2>
+        </pre>
+    
+      </code>
+    </section>
+    <section>
+        <h1>SAMPLE INPUT :</h1>
+        <h2><p><samp>Input the 10 numbers : 
+          <pre>
+            Number-1 :1                                                                                                   
+            Number-2 :2                                                                                                   
+            Number-3 :3                                                                                                   
+            Number-4 :4                                                                                                   
+            Number-5 :5                                                                                                   
+            Number-6 :6                                                                                                   
+            Number-7 :7                                                                                                   
+            Number-8 :8                                                                                                   
+            Number-9 :9                                                                                                   
+            Number-10 :10 
+          </pre>                                                                                       
+          <br>
+        </samp></p></h2>
+    </section>
+    <br>
+    <section>
+        <h1>SAMPLE OUTPUT :</h1><h2><p><samp>The sum of 10 no is : 55   <br>                                                                                   
+          The Average is : 5.500000 </samp></p></h2>
+    </section>
+    <br>
+    <section>
+        <h1>COMPLEXITY :</h1>
+        <h2><p>Time complexity of the above program is: O(N)</p></h2>
+    </section>
+    <hr>
+    <footer>
+        
+        <p>Reference
+            <strong>
+        <a href="https://www.javatpoint.com/program-to-convert-celsius-into-fahrenheit#:">Click here</a>  
+        <address>
+        Send your queries at: vishal.borse898@gmail.com<br>
+        Affiliated to: WCE, Sangli
+        </address>
+    </strong>
+    
+    </footer>
+  </body>
+</html>
